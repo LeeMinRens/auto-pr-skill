@@ -3,3 +3,4 @@
 - Trigger: Update skill.md
 - Action: Generate PR
 - Test: Edited directly on GitHub
+- Test: Workflow branch creation
