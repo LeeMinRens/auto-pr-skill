@@ -17,4 +17,5 @@ jobs:
           commit-message: "Auto PR from skill.md"
           title: "Auto PR from skill.md"
           body: "This PR was generated automatically when skill.md was updated."
-          branch: auto-pr-skill-md   # <--- force workflow to create a branch
+          branch: auto-pr-skill-md
+          base: main   # <--- ensures PR is opened against main
