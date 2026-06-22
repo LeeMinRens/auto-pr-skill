@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - "skill.md"
+    branches-ignore:
+      - main   # contributors should NOT commit directly to main
 
 jobs:
   create-pr:
@@ -19,6 +21,5 @@ jobs:
           body: "This PR was generated automatically when skill.md was updated."
           branch: auto-pr-skill-md
           base: main
-          add-paths: skill.md   # <--- ensures skill.md is staged into branch
-          branch-suffix: timestamp
+          add-paths: skill.md
           delete-branch: true
