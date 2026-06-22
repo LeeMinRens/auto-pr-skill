@@ -20,3 +20,4 @@ jobs:
           branch: auto-pr-skill-md   # workflow will always create/update this branch
           base: main                 # PR will always target main
           add-paths: skill.md        # ensures skill.md changes are staged into the branch
+          delete-branch: true        # optional: cleans up branch after merge
