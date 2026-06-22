@@ -9,3 +9,4 @@
 - Test: Auto PR run with fixed workflow
 - Test: Auto PR run with branch-suffix
 - Test: Auto PR run with add-paths
+- Test: Contributor edit
