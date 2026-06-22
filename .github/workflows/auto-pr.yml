@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - "skill.md"
+    branches-ignore:
+      - main   # contributors should NOT commit directly to main
 
 jobs:
   create-pr:
@@ -20,5 +22,4 @@ jobs:
           branch: auto-pr-skill-md
           base: main
           add-paths: skill.md
-          branch-suffix: timestamp   # ensures each run creates/updates a unique branch
-          delete-branch: true        # cleans up branch after merge
+          delete-branch: true

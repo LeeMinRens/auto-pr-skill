@@ -8,4 +8,4 @@
 - Test: Auto PR run
 - Test: Auto PR run with fixed workflow
 - Test: Auto PR run with branch-suffix
-- Test: feature branch edit
+- Test: Auto PR run with add-paths
